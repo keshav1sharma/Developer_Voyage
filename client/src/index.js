@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import { ContextProvider } from "./context/Context";
 
+const app = require('express'); //common js
+
 ReactDOM.render(
   <React.StrictMode>
     <ContextProvider>
